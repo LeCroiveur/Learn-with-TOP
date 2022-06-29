@@ -1,0 +1,38 @@
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 4em;
+    font-weight: lighter;
+    border-style: dotted;
+    border-width: thick;
+}
+
+.introduction {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.liste {
+    font-size: 1.3rem;
+}
+
+.ingrection {
+    font-size: 1.7rem;
+    color: blue;
+
+
+}
+
+.ingrection::before {
+    content: "- ";
+}
+
+.anotherThing {
+    font-size: 1.7rem;
+    text-decoration: underline;
+}
+
+.normalTruc {
+    font-size: 1.4rem;
+}
